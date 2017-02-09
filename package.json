@@ -1,0 +1,24 @@
+{
+  "name": "wechat_crawler",
+  "version": "1.0.0",
+  "description": "通过抓取搜狗微信网站获取微信文章信息!",
+  "main": "app.js",
+  "private": true,
+  "author": "452076103@qq.com",
+  "keywords": [
+    "async",
+    "cheerio",
+    "request",
+    "nodejs爬虫",
+    "微信文章",
+    "搜狗微信"
+  ],
+  "dependencies": {
+    "async": "^2.1.4",
+    "cheerio": "^0.22.0",
+    "request": "^2.79.0"
+  },
+  "scripts": {
+    "start": "node app"
+  }
+}
